@@ -5,6 +5,7 @@ Supermicros's / American Megatrends IPMI source tree taken from https://www.supe
 This code covers the IPMI/BMC part of Supermicro motherboards, using the WPCM450 BMC as well as ARM926EJS ARM CPU.
 Providing support for HERMON board, using 
 
+```
 #
 #--------------- OEM VERSION OF BUILDPROJECT ----------------------
 #
@@ -37,7 +38,7 @@ SCRIPT_DATE="10/25/2007"	# Build Script Modification Date
 SCRIPT_VERS="2.4.0"            	# Build Script Version
 #
 #
-
+```
 
 -Due to lack of information we tried the following things out.
 
@@ -54,6 +55,7 @@ Currently it's only possible to get a successful build on Debian 4 (i386).
 
 Outputs might be quite confusing, so in case of a successfull build, you will get a similar output like this one.
 
+```
 Creating "/root/winbond.successful//Build/Output/rom.ima" ...
 FlashSize = 0x1000000 BlockSize = 0x10000
 boot: Alternate location @ 0xff80
@@ -77,5 +79,5 @@ Flash Image created Successfully!
 *************************************************
 /root/winbond.successful//Build/Output/rom.ima created
 *************************************************
-
+```
 
